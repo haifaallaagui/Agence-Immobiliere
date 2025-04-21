@@ -1,0 +1,96 @@
+@charset "ISO-8859-1";
+h2{
+    font-family: Calisto MT; 
+    font-style:oblique;
+    font-size: 50px;
+    text-align:center;
+    color:#ffffff ;
+    
+}
+
+.form0{
+        border-radius: 0;
+        background-color: hsl(220, 27%, 98%);
+        padding: 20px;
+        margin: 0 auto; 
+         width:300px;
+          opacity:0.8;
+          }
+
+       
+      
+
+label {
+        padding: 12px 12px 12px 0 ;
+        display: inline-block;
+     	color:rgb(0, 128, 128);
+     	opacity:1;
+      }
+input {
+	padding:3px;
+ border:1px solid rgb(0, 128, 128);
+ border-radius:5px;
+ width:100px;
+ box-shadow:1px 1px 2px #C0C0C0 inset;
+}
+       
+.btn {
+         background-color: rgb(0, 128, 128);
+         color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        margin-bottom:right;
+        
+      }
+.btn1 {
+         background-color: #ffffff;
+         color:  rgb(0, 128, 128);
+        padding: 30px 70px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+         opacity:0.8;
+        
+      }
+
+ body{
+    
+    background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+ }
+
+ 
+ .card{
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: #F8F9FB;
+    border-radius: .3rem;
+    box-shadow: 0 2px 5px rgb(3,74,40,.15);
+   }
+.card-title{
+	font-size:30px;
+}
+.card{
+	opacity:0.8;
+}
+.card-img-top1{
+	width:305px;
+	height:150px;
+}
+.card-img-top2{
+	width:400px;
+	height:500px;
+}
+.conten__button{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  padding: .625rem .813rem;
+  border-radius: .5rem 0 .5rem 0;
+}
